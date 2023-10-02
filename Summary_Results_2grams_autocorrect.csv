@@ -1,0 +1,9 @@
+Estimator,Best Parameters,Best Score with Training Set (%),Score with Testing Set (%)
+MultinomialNB(alpha=1),"{'alpha': 1, 'fit_prior': True}",78.19,78.33
+"LogisticRegression(C=0.1, random_state=1, solver='liblinear')","{'C': 0.1, 'penalty': 'l2', 'solver': 'liblinear'}",78.46,79.42
+"SVC(C=10, gamma=0.001, random_state=1)","{'C': 10, 'gamma': 0.001, 'kernel': 'rbf'}",75.92,76.17
+"SVC(C=0.01, kernel='linear', random_state=1)","{'C': 0.01, 'kernel': 'linear'}",78.64,79.78
+"LinearSVC(C=0.001, random_state=1)","{'C': 0.001, 'penalty': 'l2'}",78.64,78.7
+SGDClassifier(alpha=0.1),"{'alpha': 0.1, 'loss': 'hinge', 'penalty': 'l2'}",78.46,72.2
+"KNeighborsClassifier(metric='manhattan', n_neighbors=2)","{'metric': 'manhattan', 'n_neighbors': 2, 'weights': 'uniform'}",65.51,64.62
+"RandomForestClassifier(max_depth=9, n_estimators=500, random_state=1)","{'max_depth': 9, 'min_samples_leaf': 1, 'n_estimators': 500}",74.93,74.36
